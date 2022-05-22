@@ -1,0 +1,16 @@
+.cards,
+.app__body {
+  display: flex;
+}
+
+.card--selected {
+  border: 1px solid greenyellow;
+  color: greenyellow;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 5px;
+  width: 200px;
+  text-align: center;
+}
