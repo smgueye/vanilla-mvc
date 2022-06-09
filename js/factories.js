@@ -10,7 +10,7 @@ function UserFactory(data) {
   }
 
   function buildUserChildList(children) {
-    return children.map(child => ($elementDomFactory('il', {}, child)));
+    return children.map(child => ($elementDomFactory('li', {}, child)));
   }
 
   return { id, name, email, buildUserCard, buildUserChildList }
